@@ -6,7 +6,7 @@
  * This class will calculate surface area and volume
  */
 
-public class CubeIt
+public class Cube
 {
 	private double sideLength;
 	
@@ -14,7 +14,7 @@ public class CubeIt
 	 * Constructor 
 	 * @param sideLength
 	 */
-	public CubeIt(double sideLength)
+	public Cube(double sideLength)
 	{
 		this.sideLength = sideLength;
 	}

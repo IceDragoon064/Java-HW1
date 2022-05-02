@@ -40,7 +40,7 @@ public class CubeDriver
 		}
 		
 		// Use CubeIt class constructor to create new CubeIt object and assign its variable
-		CubeIt cubeValue = new CubeIt(sideLength);
+		Cube cubeValue = new Cube(sideLength);
 		
 		System.out.println("Surface Area: " + cubeValue.surfaceArea());
 		System.out.println("Volume: " + cubeValue.volume());
