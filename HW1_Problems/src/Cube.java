@@ -11,8 +11,8 @@ public class Cube
 	private double sideLength;
 	
 	/**
-	 * Constructor 
-	 * @param sideLength
+	 * Constructor for Cube class to assign sideLength with the parameter
+	 * @param sideLength - Assign value to object's sideLength
 	 */
 	public Cube(double sideLength)
 	{
@@ -22,7 +22,7 @@ public class Cube
 	/**
 	 * surfaceArea method to calculate surface area of the cube
 	 * Formula: SA = 6 * side length ^ 2
-	 * @return the value of saCube using instance variable sideLength
+	 * @return saCube - the surface area of the cube
 	 */
 	public double surfaceArea()
 	{
@@ -35,7 +35,7 @@ public class Cube
 	 * This method calculates the volume of the cube
 	 * using instance variable sideLength
 	 * Formula: V = side length ^ 3 
-	 * @return the value of volumeCube
+	 * @return volumeCube - the volume of the cube
 	 */
 	public double volume()
 	{

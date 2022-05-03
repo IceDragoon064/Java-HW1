@@ -20,17 +20,18 @@ public class CubeDriver
 		Scanner userInput = new Scanner(System.in);
 		System.out.println("Input cube side length");
 		
-		// Force user to input a double before proceeding with the program
+		/**
+		 * Force user to input a double before proceeding with the program
+		 */
 		while(!correctInput)
 		{
 			// Check input as a double
 			// If the input is not a double, print a warning
-			
 			if (userInput.hasNextDouble())
 			{
 				sideLength = userInput.nextDouble();
 				System.out.println("Length: " + sideLength);
-				correctInput = true;
+				correctInput = true; //Boolean variable that causes while loop to terminate
 			}
 			
 			else
